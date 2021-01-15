@@ -6,7 +6,7 @@ name: jd_unbind
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 17 * * *'
+    - cron: '30 13,21 * * *'
   watch:
     types: started
   repository_dispatch:
